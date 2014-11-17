@@ -1,12 +1,25 @@
-*.class
+#Git
+/.git
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+#Forge
+/.gradle
+/bin
+/build
+/eclipse
+/logs
+/mods
+/out
+/gradle
+.project
+.settings
+*.txt
+.classpath
 
-# Package Files #
-*.jar
-*.war
-*.ear
+#IntelliJ
+1.7.10.iml
+1.7.10.ipr
+1.7.10.iws
+ANSSRPG.iml
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+#Misc
+*.bat
