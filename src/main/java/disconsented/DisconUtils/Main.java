@@ -7,7 +7,7 @@ import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = Main.MODID, version = Main.VERSION, name = Main.MODID)
+@Mod(modid = Main.MODID, version = Main.VERSION, name = Main.MODID, acceptableRemoteVersions = "*")
 public class Main
 {
     public static final String MODID = "DisconUtils";
