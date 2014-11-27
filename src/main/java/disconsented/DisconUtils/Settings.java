@@ -11,6 +11,9 @@ public class Settings {
 	
 	private static boolean invul = false;
 	private static Settings instance = null;
+	private boolean printEntitys = false;
+	private boolean printBlocks = false;
+	private boolean printItems = false;
 	   protected Settings() {
 	      // Exists only to defeat instantiation.
 	   }
@@ -28,5 +31,23 @@ public class Settings {
 	   {
 		   this.invul = setting;
 	   }
+	public boolean isPrintEntitys() {
+		return printEntitys;
+	}
+	public void setPrintEntitys(boolean printEntitys) {
+		this.printEntitys = printEntitys;
+	}
+	public boolean isPrintBlocks() {
+		return printBlocks;
+	}
+	public void setPrintBlocks(boolean printBlocks) {
+		this.printBlocks = printBlocks;
+	}
+	public boolean isPrintItems() {
+		return printItems;
+	}
+	public void setPrintItems(boolean printItems) {
+		this.printItems = printItems;
+	}
 
 }
